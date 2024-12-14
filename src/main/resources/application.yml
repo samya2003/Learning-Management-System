@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: Education
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    enabled: true
+    encoding: UTF-8
+  datasource:
+    url: jdbc:mysql://localhost:3306/onlinelearning
+    username: root
+    password: 8017
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: learnwitheducation1@gmail.com
+    password: bjpq fsja nmbn fazn
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8081

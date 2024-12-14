@@ -1,0 +1,46 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.collapse>ul>li>a{
+    color: #55b3b7;
+    border-radius: 20px;
+    margin-right: 5px;
+    padding: 2px;
+}
+.collapse>ul>li>a:hover{
+    color: white;
+    background-color: #41b0b0;
+    transition: ease-in-out.3s;
+}
+.dropdown-menu{
+    width: 220px;
+}
+.dropdown-menu>li>button{
+    border: 0;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color:#52d1da;
+    margin: 2px;
+}
+.dropdown-menu>li>button:hover{
+    color: #ffffff;
+    background-color: #71C9CE;
+    transition: ease-in-out.3s;
+}
+.d-flex{
+
+    .form-control{
+        border-radius: 20px;
+        border: 1px solid #4580b7;
+    }
+    .nav-link{
+        margin-right: 5px;
+        border-radius: 20px;
+        border:none;
+        background-color: #71C9CE;
+        color: #F8F9FA;
+    }
+    .nav-link:hover{
+        background-color: #5cd5de;
+    }
+}

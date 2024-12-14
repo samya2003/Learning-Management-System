@@ -1,0 +1,16 @@
+.body{
+    font-family: "Poppins", sans-serif;
+}
+:root {
+  scroll-behavior: smooth;
+}
+.sidebar-nav{
+	list-style: none;
+}
+.sidebar-nav>li{
+	margin-top: 20px;
+}
+.sidebar-nav>li>a{
+	text-decoration: none;
+	color: #41b0b0;
+}
